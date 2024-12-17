@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Marry Me?</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Landing Section -->
+    <section id="landing">
+        <div class="container">
+            <h1>Will You Marry Me?</h1>
+            <p>Our love story is my favorite adventure.</p>
+            <a href="#proposal" class="btn">Go to Proposal</a>
+        </div>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section id="gallery">
+        <h2>Our Beautiful Moments</h2>
+        <div class="photo-grid">
+            <img src="photo1.jpg" alt="Moment 1">
+            <img src="photo2.jpg" alt="Moment 2">
+            <img src="photo3.jpg" alt="Moment 3">
+            <img src="photo4.jpg" alt="Moment 4">
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section id="story">
+        <div class="container">
+            <h2>Our Story</h2>
+            <p>
+                From the day we met, I knew you were someone special. 
+                Through every laugh, every adventure, and every moment, you’ve filled my life with love and joy.
+                You are my best friend, my partner, and my greatest blessing.
+            </p>
+        </div>
+    </section>
+
+    <!-- Proposal Section -->
+    <section id="proposal">
+        <div class="container">
+            <h2>Will You Marry Me?</h2>
+            <p>There's no one else I'd rather spend my forever with.</p>
+            <div class="buttons">
+                <button class="yes-btn" onclick="respond('yes')">YES</button>
+                <button class="no-btn" onclick="respond('no')">NO</button>
+            </div>
+            <p id="response"></p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
